@@ -1,0 +1,972 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url('./image/bg_image.jpg');
+} */
+.logo {
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+#nav-box-shedow {
+    background: #FFFFFF;
+    border: 1px solid black;
+    box-shadow: 0px 2px 20px rgba(238, 5, 5, 0.9);
+    height: 70px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    column-gap: 10px;
+    margin-left: 190px;
+}
+
+.icon-fb {
+    margin-left: 210px;
+    margin-top: 3px;
+}
+
+#icon-insta,
+#icon-twitter {
+    margin-top: 3px;
+}
+
+/* -----------------------hero-section---------------- */
+
+.row {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-hero {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-expo {
+    width: 170px;
+    height: 48px;
+    background: #0E4DA4;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px solid chartreuse;
+}
+
+/* .col-lg-4 {
+    /* border: 1px solid red; */
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.btn-expo2 {
+    width: 130px;
+    font-weight: 600;
+    height: 30px;
+    background: white;
+    color: #0E4DA4;
+    border: 0.5px solid gray;
+    margin-top: 15px;
+    border: 2px solid chartreuse;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.img-icon2,
+.img-icon4 {
+    margin-top: 50px;
+}
+
+.laptop-girl-img {
+    width: 100%;
+    border: 2px solid chartreuse;
+    box-shadow: 0px 2px 20px rgba(63, 61, 61, 0.80);
+}
+
+.heading-best-practicrs {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.text-lap-girl {
+    text-align: justify;
+    margin-top: 320px;
+}
+
+/* ----------------------Work section ------------------ */
+.heading-work {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-work {
+
+    margin-top: 20px;
+}
+
+
+
+.col-lg-2 {
+    border: 1px solid gray;
+    height: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* .col-lg-8,
+.col-lg-4,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5 {
+    border: 1px solid black;
+} */
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5 {
+    width: 100%;
+    box-shadow: 0px 2px 20px rgba(63, 61, 61, 0.80);
+    border: 2px solid chartreuse;
+}
+
+.image-3,
+.image-4,
+.image-5 {
+    margin-top: 20px;
+}
+
+.text-work-with {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.btn-contact {
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #0E4DA4;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid chartreuse;
+    margin-bottom: 100px;
+
+}
+
+.container-fluid {
+    background-color: #ccc8c8;
+    width: 100%;
+}
+
+/* -----------------Team section----------------- */
+
+.heading-team {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.text-team {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#col-2 {
+    height: 380px;
+    border: none;
+}
+
+.main-team-img {
+    width: 100%;
+    box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
+    border: 2px solid chartreuse;
+
+}
+
+pre {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 32px;
+    color: red;
+}
+
+.text-sebastian {
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 27px;
+    text-align: justify;
+}
+
+.text-founder {
+    font-size: 12px;
+    margin-left: 30px;
+    text-align: justify;
+
+}
+
+.t-img1,
+.t-img2,
+.t-img3,
+.t-img4,
+.t-img5 {
+    display: block;
+    margin: auto;
+}
+
+.t-img1 {
+    margin-top: -20px;
+}
+
+.t-img2 {
+    margin-top: -25px;
+}
+
+.t-img3,
+.t-img4,
+.t-img5 {
+    margin-top: 5px;
+
+}
+
+.icon-fb-team {
+    margin-left: 30px;
+}
+
+#icon-twitter-team,
+#icon-insta-team {
+    margin-left: 10px;
+}
+
+/* ------------------Plan section ----------------- */
+
+.heading-plan {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.text-plan {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table th,
+td {
+    border: 1px solid chartreuse;
+    text-align: center;
+    height: 40px;
+
+}
+
+table {
+    border-collapse: collapse;
+    /* width:90%; */
+    margin-top: 50px;
+    box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
+    margin-left: 0px;
+
+
+    
+}
+
+.row-bg {
+    background-color: #dfe7f1;
+
+}
+
+/* table {
+    margin-top: 50px;
+    box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
+
+} */
+
+.table-row {
+    height: 80px;
+}
+
+.btn-1 {
+    width: 80px;
+    height: 40px;
+    color: #0E4DA4;
+    font-weight: 600;
+    border: 0.5px solid chartreuse;
+    background-color: #dfe7f1;
+}
+
+.btn-2,
+.btn-3 {
+    width: 100px;
+    height: 40px;
+    color: #0E4DA4;
+    font-weight: 600;
+    border: 0.5px solid chartreuse;
+    background-color: #dfe7f1;
+}
+
+.heading-news {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#col-plan-1,
+#col-plan-2,
+#col-plan-3,
+#col-plan-4 {
+    border: 1px solid chartreuse;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+}
+
+.heading-lg-5-plan {
+    text-align: justify;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-lg-5-plan {
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+span {
+    margin-left: 10px;
+
+}
+
+.plan-img {
+    margin-bottom: 15px;
+}
+
+#col-plan-3,
+#col-plan-4 {
+    margin-top: 20px;
+}
+
+/* ------------------Subscribe section-------------- */
+#sub-row {
+    margin-top: 150px;
+}
+
+.boyimg {
+    width: 100%;
+}
+
+.heading-sub {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.input {
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid chartreuse;
+    height: 40px;
+}
+
+.input::placeholder {
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+
+
+.text-sub {
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#btn-submit {
+    width: 130px;
+    font-weight: 600;
+    height: 40px;
+    background: #0E4DA4;
+    color: white;
+    border: 0.5px solid gray;
+    margin-top: 15px;
+    border: 2px solid chartreuse;
+    /* display: block; */
+    /* margin: auto; */
+    margin-left: 20px;
+}
+
+/* ----------------contact section ------------ */
+
+
+/* .col-lg-3{
+    border: 1px solid darkmagenta;
+    width: auto;
+    display: block;
+    margin: auto;
+} */
+/* .col-lg-4{
+    border: 1px solid black;
+} */
+#row2-insta,
+#row1-insta {
+    margin-top: 20px;
+}
+
+.heading-about {
+    font-weight: 600;
+    margin-left: -10px;
+}
+
+.text-about {
+    text-align: justify;
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.heading-insta {
+    font-weight: 600;
+    margin-left: -10px;
+}
+
+.heading-twit {
+    font-weight: 600;
+
+}
+
+.insta-1,
+.insta-2,
+.insta-3,
+.insta-4,
+.insta-5,
+.insta-6,
+.insta-7 {
+    width: 100%;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.insta-8 {
+    margin-left: -13px;
+}
+
+.img-chakli {
+    margin-top: 20px;
+}
+
+.text-chakli {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.text-copyright {
+    margin-top: 70px;
+    text-align: justify;
+}
+
+.icon-facebook {
+    margin-left: 890px;
+    margin-top: -70px;
+}
+
+#icon-twit,
+#icon-instagram {
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+
+
+/* ---------------------media qurey---------------------- */
+
+@media only screen and (max-width:768px) {
+
+    .row {
+        margin-top: 150px;
+    }
+
+
+    .navbar-toggler {
+        border: 2px solid red;
+
+    }
+
+    .navbar-nav {
+        /* border: 1px solid black; */
+        margin-left: 0px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .nav-link {
+        font-weight: 600;
+        text-decoration: underline;
+        height: 30px;
+        text-align: justify;
+        color: #0E4DA4;
+        margin-left: 60px;
+    }
+
+    .icon-fb {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #icon-insta {
+        margin-left: 80px;
+        margin-top: -105px;
+    }
+
+    #icon-twitter {
+        padding-left: 120px;
+        margin-top: -57px;
+    }
+
+
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        display: block;
+        margin: auto;
+    }
+
+    .text-hero {
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .btn-expo {
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+    }
+
+    .heading-best-practicrs {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: -100px;
+    }
+
+    p {
+        margin-bottom: 50px;
+    }
+
+    .img-icon1,
+    .img-icon2,
+    .img-icon3,
+    .img-icon4 {
+        display: block;
+        margin: 50px auto;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .heading-best-practicrs {
+        font-size: 50px;
+    }
+
+    .text-lap-girl {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .image-2,
+    .image-3,
+    .image-4,
+    .image-5 {
+        margin-top: 30px;
+    }
+
+    .text-work-with {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .text-work {
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .col-lg-2 {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    #row-work {
+        margin-top: 20px;
+    }
+
+    #row-images {
+        margin-top: 50px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    pre {
+        font-size: 24px;
+    }
+
+    #row-team {
+        margin-top: 0px;
+
+    }
+
+    .main-team-img {
+        margin-top: 40px;
+    }
+
+    .text-founder {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .heading-plan {
+        margin-top: 50px;
+    }
+
+    #news-row {
+        margin-top: 80px;
+    }
+
+    #col-plan-1 {
+        width: 90%;
+    }
+
+    #col-plan-2,
+    #col-plan-3,
+    #col-plan-4 {
+        margin-top: 40px;
+        width: 90%;
+    }
+
+    .heading-lg-5-plan {
+        font-size: 25px;
+    }
+
+    .text-lg-5-plan {
+        font-size: 15px;
+    }
+
+    #sub-row {
+        margin-top: 50px;
+    }
+
+    #work-with-row {
+        margin-top: 50px;
+    }
+
+
+    .heading-sub {
+        text-align: center;
+    }
+
+    .input {
+        width: 400px;
+        display: block;
+        margin: 20px auto;
+        height: 50px;
+    }
+
+    .input::placeholder {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #btn-submit {
+        width: 130px;
+        font-weight: 600;
+        height: 40px;
+        background: #0E4DA4;
+        color: white;
+        border: 0.5px solid gray;
+        margin-top: 15px;
+        border: 2px solid chartreuse;
+        display: block;
+        margin: auto;
+    }
+
+    .text-sub {
+        font-size: 18px;
+    }
+
+    #contact-row {
+        margin-top: 0px;
+    }
+
+    .text-about {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .heading-insta {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .heading-twit {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .img-chakli {
+        display: block;
+        margin: 25px auto;
+    }
+
+    .text-chakli {
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+        font-size: 15px;
+    }
+
+    .col-lg-3 {
+        /* border: 1px solid darkmagenta; */
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .text-copyright {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .icon-facebook {
+        display: none;
+
+    }
+
+    #icon-twit,
+    #icon-instagram {
+        display: none;
+
+    }
+    
+}
+
+@media only screen and (max-width:567px) {
+
+    h2 {
+        margin-top: -30px;
+    }
+
+    .heading-best-practicrs {
+        margin-top: -30px;
+    }
+    #row-work {
+        margin-top: 70px;
+    }
+
+    .row {
+        margin-top: 100px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .btn-submit {
+        margin-left: 0px;
+    }
+   
+}
+
+@media only screen and (max-width:990px) {
+
+    .img-icon1,
+    .img-icon2,
+    .img-icon3,
+    .img-icon4 {
+        display: block;
+        margin: 50px auto;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .text-lap-girl {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .heading-sub {
+        text-align: center;
+    }
+
+    input {
+        width: 400px;
+        display: block;
+        margin: 40px auto;
+        height: 50px;
+    }
+
+    .input::placeholder {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .btn-submit {
+        margin-left: 300px;
+    }
+
+    .text-sub {
+        font-size: 18px;
+    }
+
+    .text-about {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .heading-insta {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .heading-about {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .heading-insta,
+    .heading-twit {
+        font-size: 34px;
+        margin-top: 40px;
+    }
+
+    .img-chakli {
+        display: block;
+        margin: 25px auto;
+    }
+
+    .text-chakli {
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+        font-size: 15px;
+    }
+
+    .col-lg-3 {
+        /* border: 1px solid darkmagenta; */
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .text-copyright {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .icon-facebook {
+        display: none;
+
+    }
+
+    #icon-twit,
+    #icon-instagram {
+        display: none;
+
+    }
+   
+
+}
