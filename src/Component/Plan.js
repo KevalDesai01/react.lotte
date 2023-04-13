@@ -68,7 +68,7 @@ const Plan = () => {
                     efficiendi ei, at nihil tantas platonem eos. </p>
 
                 <div className='row' id="news-row">
-                    <div className='col-lg-5' id='col-plan-1'>
+                    <div className='col-lg-5' id='col-plan-1' data-aos="zoom-in">
                         <h4 className='heading-lg-5-plan'>Future of customer support</h4>
                         <p className='text-lg-5-plan'>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et<br />
                             fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio<br />
@@ -76,7 +76,7 @@ const Plan = () => {
                         <img className='plan-img' src={plan_img1} /><span>Hangakore Hariwana</span>
 
                     </div>
-                    <div className='col-lg-5' id='col-plan-2'>
+                    <div className='col-lg-5' id='col-plan-2' data-aos="zoom-in">
                         <h4 className='heading-lg-5-plan'>Digital trends in next 2020</h4>
                         <p className='text-lg-5-plan'>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et<br />
                             fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio<br />
@@ -85,7 +85,7 @@ const Plan = () => {
 
                     </div>
 
-                    <div className='col-lg-5' id='col-plan-3'>
+                    <div className='col-lg-5' id='col-plan-3' data-aos="zoom-in">
                         <h4 className='heading-lg-5-plan'>Digital trends in next 2020</h4>
                         <p className='text-lg-5-plan'>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et<br />
                             fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio<br />
@@ -93,7 +93,7 @@ const Plan = () => {
                         <img className='plan-img' src={plan_img3} /><span>Hangakore Hariwana</span>
 
                     </div>
-                    <div className='col-lg-5' id='col-plan-4'>
+                    <div className='col-lg-5' id='col-plan-4' data-aos="zoom-in">
                         <h4 className='heading-lg-5-plan'>Digital trends in next 2020</h4>
                         <p className='text-lg-5-plan'>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et<br />
                             fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio<br />

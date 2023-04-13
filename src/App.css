@@ -5,29 +5,10 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-image: url('./image/bg_image.jpg');
-} */
-.logo {
-    transform-style: preserve-3d;
-    animation: rotate 20s linear infinite;
-
-}
-
-@keyframes rotate {
-    0% {
-        transform: perspective(1000px) rotateY(0deg);
-    }
-
-    100% {
-        transform: perspective(1000px) rotateY(360deg);
-    }
-}
-
 .container {
     max-width: 1040px;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     /* border: 1px solid black; */
 }
 
@@ -38,25 +19,19 @@
     height: 70px;
 }
 
-.nav-link {
-    font-size: 16px;
-    font-weight: 400;
-    /* border: 1px solid black; */
-}
-
 .navbar-nav {
-    column-gap: 10px;
-    margin-left: 190px;
+    margin-left: 80px;
 }
 
-.icon-fb {
-    margin-left: 210px;
-    margin-top: 3px;
-}
-
-#icon-insta,
-#icon-twitter {
-    margin-top: 3px;
+.nav-link {
+    font-weight: 500;
+    color: white;
+    margin-left: 40px;
+    border: 2px solid chartreuse;
+    width: 150px;
+    text-align: center;
+    background-color: #0E4DA4;
+    border-radius: 20px;
 }
 
 /* -----------------------hero-section---------------- */
@@ -557,66 +532,20 @@ span {
 
     .navbar-toggler {
         border: 2px solid red;
-
     }
-
-    .navbar-nav {
-        /* border: 1px solid black; */
-        margin-left: 10px;
-        /* width: 200px; */
-        margin-top: 20px;
+    .navbar-nav{
+        margin-left: 0px;
+        margin-top: 10px;
     }
- 
-    #nav-pro {
-        margin-left: 80px;
-        margin-top: -30px;
-    }
-
-    #nav-blo {
-        margin-left: 160px;
-        margin-top: -30px;
-        
-    }
-
-    #nav-con {
-        margin-left: 240px;
-        margin-top: -30px;
-    }
-
-    .nav-link {
-        font-weight: 600;
-        text-decoration: underline;
-        height: 30px;
-        text-align: center;
-        color: #0E4DA4;
-        /* margin-left: 60px; */
-        /* border: 1px solid black; */
-        width: 80px;
-
-    }
-
-    .icon-fb {
-        /* margin-left:0px; */
-        /* margin-top: 20px; */
-        display: none;
-    }
-
-    #icon-insta {
-        /* margin-left: 40px; */
-        /* margin-top: -105px; */
-        display: none;
-    }
-
-    #icon-twitter {
-        /* padding-left: 80px; */
-        /* margin-top: -57px; */
-        display: none;
+    .nav-link{
+        margin-left: 0px;
+        margin-top: 10px;
     }
 
 
-#hero{
-margin-top: 50px;    
-}
+    #hero {
+        margin-top: 10px;
+    }
 
     h1 {
         text-align: center;
@@ -864,6 +793,7 @@ margin-top: 50px;
     h2 {
         margin-top: -30px;
     }
+
     .heading-best-practicrs {
         margin-top: -30px;
     }

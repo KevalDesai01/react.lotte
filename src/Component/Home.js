@@ -42,7 +42,7 @@ const Home = () => {
                         <button className='btn-expo2'>Explore</button>
 
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4' data-aos="zoom-out">
                         <img className='img-icon1' src={icon1} />
                         <h3>Layouts</h3>
                         <p>Quidam officiis similique sea ei, vel tollit<br />
@@ -54,7 +54,7 @@ const Home = () => {
                             indoctum efficiendi tantas platonem. </p>
 
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4' data-aos="zoom-out">
                         <img className='img-icon3' src={icon3} />
                         <h3>Awards</h3>
                         <p>Quidam officiis similique sea ei, vel tollit<br />
