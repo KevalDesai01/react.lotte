@@ -39,7 +39,7 @@ const Work = () => {
                     <div className="col-lg-8"  data-aos="zoom-in" >
                         <img className="image-1" src={image_1} />
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4" data-aos="zoom-in">
                         <img className="image-2" src={image_2} />
                     </div>
 
