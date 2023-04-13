@@ -20,7 +20,7 @@ const Home = () => {
         <div>
             <Navbar />
 
-            <div className='container'>
+            <div className='container' id="hero">
                 <div className='row'>
 
                     <div className='col-lg-6' data-aos="zoom-in">

@@ -41,6 +41,7 @@
 .nav-link {
     font-size: 16px;
     font-weight: 400;
+    /* border: 1px solid black; */
 }
 
 .navbar-nav {
@@ -328,13 +329,13 @@ td {
 
 table {
     border-collapse: collapse;
-    width:100%;
+    width: 100%;
     margin-top: 50px;
     box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
     margin-left: 0px;
 
 
-    
+
 }
 
 .row-bg {
@@ -561,36 +562,61 @@ span {
 
     .navbar-nav {
         /* border: 1px solid black; */
-        margin-left: 0px;
-        width: 200px;
+        margin-left: 10px;
+        /* width: 200px; */
         margin-top: 20px;
+    }
+ 
+    #nav-pro {
+        margin-left: 80px;
+        margin-top: -30px;
+    }
+
+    #nav-blo {
+        margin-left: 160px;
+        margin-top: -30px;
+        
+    }
+
+    #nav-con {
+        margin-left: 240px;
+        margin-top: -30px;
     }
 
     .nav-link {
         font-weight: 600;
         text-decoration: underline;
         height: 30px;
-        text-align: justify;
+        text-align: center;
         color: #0E4DA4;
-        margin-left: 60px;
+        /* margin-left: 60px; */
+        /* border: 1px solid black; */
+        width: 80px;
+
     }
 
     .icon-fb {
-        margin-left: 40px;
-        margin-top: 20px;
+        /* margin-left:0px; */
+        /* margin-top: 20px; */
+        display: none;
     }
 
     #icon-insta {
-        margin-left: 80px;
-        margin-top: -105px;
+        /* margin-left: 40px; */
+        /* margin-top: -105px; */
+        display: none;
     }
 
     #icon-twitter {
-        padding-left: 120px;
-        margin-top: -57px;
+        /* padding-left: 80px; */
+        /* margin-top: -57px; */
+        display: none;
     }
 
 
+#hero{
+margin-top: 50px;    
+}
 
     h1 {
         text-align: center;
@@ -830,7 +856,7 @@ span {
         display: none;
 
     }
-    
+
 }
 
 @media only screen and (max-width:567px) {
@@ -838,10 +864,10 @@ span {
     h2 {
         margin-top: -30px;
     }
-
     .heading-best-practicrs {
         margin-top: -30px;
     }
+
     #row-work {
         margin-top: 70px;
     }
@@ -857,7 +883,7 @@ span {
     .btn-submit {
         margin-left: 0px;
     }
-   
+
 }
 
 @media only screen and (max-width:990px) {
@@ -967,6 +993,6 @@ span {
         display: none;
 
     }
-   
+
 
 }
