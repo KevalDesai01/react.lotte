@@ -6,6 +6,7 @@ import plan_img1 from '../image/plan_img1.png'
 import plan_img2 from '../image/plan_img2.png'
 import plan_img3 from '../image/plan_img3.png'
 import plan_img4 from '../image/plan_img4.png'
+import { Collapse } from 'react-bootstrap'
 
 
 const Plan = () => {
@@ -15,54 +16,59 @@ const Plan = () => {
                 <h2 className='heading-plan'>Our Plans</h2>
                 <p className='text-plan'>Quidam officiis similique sea ei, vel tollit indoctum efficiendi<br />
                     ei, at nihil tantas platonem eos. </p>
-
-                <table>
                 
-                    <tr>
-                        <th>Plan</th>
-                        <th>Simple</th>
-                        <th>Professional</th>
-                        <th>Organisation</th>
-                    </tr>
-                    <tr className='row-bg'>
-                        <td>Lorem deterruisset</td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                    </tr>
-                    <tr>
-                        <td>Hinc lorem</td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                    </tr>
-                    <tr className='row-bg'>
-                        <td>Autem molestiae</td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                    </tr>
-                    <tr>
-                        <td>Mei mazim</td>
-                        <td> <img src={cross} /> </td>
-                        <td> <img src={right} /> </td>
-                        <td> <img src={right} /> </td>
-                    </tr>
-                    <tr className='row-bg'>
-                        <td> Feugait electram</td>
-                        <td> <img src={cross} /> </td>
-                        <td> <img src={cross} /> </td>
-                        <td> <img src={right} /> </td>
-                    </tr>
-                    <tr className='table-row'>
-                        <td></td>
-                        <td> <button className='btn-1'>$19</button>  </td>
-                        <td><button className='btn-2'>$24</button> </td>
-                        <td><button className='btn-3'>$99</button>  </td>
-                    </tr>
-                
-                </table>
+                <div className='table-div'>
+                    <table>
 
+
+                        <tr>
+                            <th>Plan</th>
+                            <th>Simple</th>
+                            <th>Professional</th>
+                            <th>Organisation</th>
+                        </tr>
+
+                        <tr>
+                            <td>Hinc lorem</td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                        </tr>
+
+                        <tr>
+                            <td>Lorem deterruisset</td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                        </tr>
+                        <tr>
+                            <td>Autem molestiae</td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                        </tr>
+                        <tr>
+                            <td>Mei mazim</td>
+                            <td> <img src={cross} /> </td>
+                            <td> <img src={right} /> </td>
+                            <td> <img src={right} /> </td>
+                        </tr>
+                        <tr>
+                            <td> Feugait electram</td>
+                            <td> <img src={cross} /> </td>
+                            <td> <img src={cross} /> </td>
+                            <td> <img src={right} /> </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>$19</td>
+                            <td>$24</td>
+                            <td>$99</td>
+                        </tr>
+
+
+                    </table>
+                </div>
                 <h3 className='heading-news'>Last News</h3>
                 <p className='text-news'>Quidam officiis similique sea ei, vel tollit indoctum<br />
                     efficiendi ei, at nihil tantas platonem eos. </p>
@@ -98,7 +104,7 @@ const Plan = () => {
                         <p className='text-lg-5-plan'>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et<br />
                             fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio<br />
                             erroribus eam, ei mea modus volumus abhorreant.</p>
-                        <img  className='plan-img' src={plan_img4} /><span>Hangakore Hariwana</span>
+                        <img className='plan-img' src={plan_img4} /><span>Hangakore Hariwana</span>
 
                     </div>
                 </div>
@@ -123,7 +129,7 @@ const Plan = () => {
 
 
 
-        </div>
+        </div >
     )
 }
 

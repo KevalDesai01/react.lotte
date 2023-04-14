@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+
 }
 
 .container {
@@ -78,8 +78,6 @@ p {
     border: 2px solid chartreuse;
 }
 
-/* .col-lg-4 {
-    /* border: 1px solid red; */
 h2 {
     font-weight: 700;
     font-size: 30px;
@@ -137,8 +135,6 @@ h3 {
     margin-top: 20px;
 }
 
-
-
 .col-lg-2 {
     border: 1px solid gray;
     height: 50px;
@@ -149,14 +145,6 @@ h4 {
     font-size: 18px;
     margin-top: 15px;
 }
-
-/* .col-lg-8,
-.col-lg-4,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5 {
-    border: 1px solid black;
-} */
 
 .image-1,
 .image-2,
@@ -296,7 +284,7 @@ pre {
 
 table th,
 td {
-    border: 1px solid chartreuse;
+    border: 2px solid chartreuse;
     text-align: center;
     height: 40px;
 
@@ -305,48 +293,18 @@ td {
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 50px;
     box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
-    margin-left: 0px;
-
-
-
 }
 
+.table-div {
+    width: 450px;
+    display: block;
+    margin: auto;
+}
 .row-bg {
     background-color: #dfe7f1;
 
 }
-
-/* table {
-    margin-top: 50px;
-    box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
-
-} */
-
-.table-row {
-    height: 80px;
-}
-
-.btn-1 {
-    width: 80px;
-    height: 40px;
-    color: #0E4DA4;
-    font-weight: 600;
-    border: 0.5px solid chartreuse;
-    background-color: #dfe7f1;
-}
-
-.btn-2,
-.btn-3 {
-    width: 100px;
-    height: 40px;
-    color: #0E4DA4;
-    font-weight: 600;
-    border: 0.5px solid chartreuse;
-    background-color: #dfe7f1;
-}
-
 .heading-news {
     font-weight: 700;
     font-size: 50px;
@@ -392,16 +350,17 @@ span {
 /* ------------------Subscribe section-------------- */
 #sub-row {
     margin-top: 150px;
+    /* border: 1px solid red; */
 }
 
 .boyimg {
     width: 100%;
 }
-
 .heading-sub {
     font-weight: 700;
     font-size: 50px;
     text-align: justify;
+    margin-top: 100px;
 }
 
 .input {
@@ -415,8 +374,6 @@ span {
     padding-left: 15px;
     font-size: 12px;
 }
-
-
 
 .text-sub {
     font-weight: 600;
@@ -440,26 +397,19 @@ span {
 
 /* ----------------contact section ------------ */
 
-
-/* .col-lg-3{
-    border: 1px solid darkmagenta;
-    width: auto;
-    display: block;
-    margin: auto;
-} */
-/* .col-lg-4{
-    border: 1px solid black;
-} */
 #row2-insta,
 #row1-insta {
     margin-top: 20px;
+    /* border: 1px solid black; */
+    /* display: inline; */
+    /* display: block; */
+    /* margin: auto; */
+    /* width: 100px; */
 }
-
 .heading-about {
     font-weight: 600;
     margin-left: -10px;
 }
-
 .text-about {
     text-align: justify;
     font-size: 12px;
@@ -487,6 +437,7 @@ span {
     width: 100%;
     width: fit-content;
     margin-left: -10px;
+    /* margin-top: 20px; */
 }
 
 .insta-8 {
@@ -524,24 +475,31 @@ span {
 /* ---------------------media qurey---------------------- */
 
 @media only screen and (max-width:768px) {
-
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    
+    }
     .row {
         margin-top: 150px;
     }
 
 
     .navbar-toggler {
-        border: 2px solid red;
+        /* border: 2px solid red; */
+        border: none;
     }
-    .navbar-nav{
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    .nav-link{
+
+    .navbar-nav {
         margin-left: 0px;
         margin-top: 10px;
     }
 
+    .nav-link {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 
     #hero {
         margin-top: 10px;
@@ -786,10 +744,30 @@ span {
 
     }
 
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        /* margin-top: 50px; */
+        box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
+        /* margin-left: -10px; */
+    }
+
+    .table-div {
+        /* border: 4px solid red; */
+        width: 450px;
+        display: block;
+        margin: auto;
+    }
+
 }
 
 @media only screen and (max-width:567px) {
-
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    
+    }
     h2 {
         margin-top: -30px;
     }
@@ -812,6 +790,23 @@ span {
 
     .btn-submit {
         margin-left: 0px;
+    }
+
+    table {
+        border-collapse: collapse;
+        /* margin-top: 50px; */
+
+        box-shadow: 0px 2px 20px rgba(20, 20, 20, 0.90);
+        /* margin-left: -10px; */
+
+    }
+
+    .table-div {
+        /* border: 4px solid red; */
+        width: auto;
+        /* display: block; */
+        /* margin: auto; */
+        margin-left: -6px;
     }
 
 }

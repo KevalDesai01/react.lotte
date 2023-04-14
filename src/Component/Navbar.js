@@ -13,11 +13,11 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">About</a>
-              <a class="nav-link" href="#">Portfolio</a>
-              <a class="nav-link" href="#">Blog</a>
-              <a class="nav-link" href="#">Contact</a>
+            <div class="navbar-nav" >
+              <a class="nav-link" aria-current="page" href="#" data-aos="flip-left">About</a>
+              <a class="nav-link" href="#" data-aos="flip-left">Portfolio</a>
+              <a class="nav-link" href="#" data-aos="flip-left">Blog</a>
+              <a class="nav-link" href="#" data-aos="flip-left">Contact</a>
             </div>
           </div>
         </div>
